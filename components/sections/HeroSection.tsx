@@ -4,10 +4,9 @@ import Image from "next/image";
 import { ArrowRight, ChevronDown, Shield, Award, TrendingUp } from "lucide-react";
 
 const stats = [
-  { label: "Pharma Clients Served",   value: "120+" },
-  { label: "Years of Domain Expertise", value: "15+" },
-  { label: "Supply Chain Projects",   value: "300+" },
-  { label: "States Across India",     value: "18+" },
+  { label: "Pharma Clients Served",   value: "10+" },
+  { label: "Years of Domain Expertise", value: "35+" },
+  
 ];
 
 export default function HeroSection() {
@@ -43,13 +42,13 @@ export default function HeroSection() {
 
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-semibold leading-[1.1] text-slate-900 mb-6">
               End-to-End{" "}
-              <span className="gold-shimmer">Pharma Consulting</span>
-              {" & "}
+              <span className="gold-shimmer">Pharma </span>
+              
               Sourcing Solutions in India
             </h1>
 
             <p className="text-slate-600 text-lg leading-relaxed mb-8 max-w-xl">
-              We don&apos;t just advise — we execute. From GMP consulting and cold chain logistics
+              We don&apos;t just advise, we execute. From GMP consulting and cold chain logistics
               to thermoformed packaging and medical device sourcing, Seraphic Tradelinks is
               your integrated pharma partner across India.
             </p>
@@ -59,7 +58,7 @@ export default function HeroSection() {
               {[
                 { icon: Shield,    text: "GMP Compliant" },
                 { icon: Award,     text: "ISO Certified Partners" },
-                { icon: TrendingUp, text: "Pan-India Network" },
+                { icon: TrendingUp, text: "Global Network" },
               ].map(({ icon: Icon, text }) => (
                 <div
                   key={text}
@@ -71,7 +70,7 @@ export default function HeroSection() {
               ))}
             </div>
 
-            {/* CTAs */}
+            {/* CTAs 
             <div className="flex flex-wrap gap-4">
               <a
                 href="#contact"
@@ -86,7 +85,7 @@ export default function HeroSection() {
               >
                 Explore Services
               </a>
-            </div>
+            </div>*/}
           </div>
 
           {/* Right — Logo + decorative rings */}
@@ -117,11 +116,11 @@ export default function HeroSection() {
         </div>
 
         {/* Stats bar */}
-        <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-5">
+        <div className="mt-4 grid grid-cols-2 md:grid-cols-4 gap-5">
           {stats.map((stat) => (
             <div
               key={stat.label}
-              className="bg-white/80 backdrop-blur-sm border border-gold-200/40 rounded-xl p-5 text-center shadow-sm hover:shadow-md hover:border-gold-300 transition-all duration-300"
+              className="bg-white/80 backdrop-blur-sm border border-gold-200/40 rounded-xl p-4 text-center shadow-sm hover:shadow-md hover:border-gold-300 transition-all duration-300"
             >
               <div className="font-display text-3xl font-semibold text-gold-600 mb-1">
                 {stat.value}
@@ -134,11 +133,11 @@ export default function HeroSection() {
         </div>
       </div>
 
-      {/* Scroll indicator */}
+      {/* Scroll indicator 
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-slate-400">
         <span className="text-xs tracking-widest uppercase">Scroll</span>
         <ChevronDown size={18} className="animate-bounce" />
-      </div>
+      </div>*/}
     </section>
   );
 }

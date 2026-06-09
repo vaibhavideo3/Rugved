@@ -3,18 +3,18 @@ import { BadgeCheck, TrendingUp, Network, BookOpen, DollarSign } from "lucide-re
 const reasons = [
   {
     icon: BadgeCheck,
-    title: "Consulting + Execution — Both",
+    title: "Consulting + Execution",
     desc: "Most firms consult OR supply. We do both. Strategy is worthless without implementation, and our clients get both from one accountable partner.",
   },
   {
     icon: BookOpen,
     title: "Deep Pharma Domain Expertise",
-    desc: "Our team brings 15+ years of combined experience in pharma operations, regulatory affairs, cold chain, and packaging — not generic business consulting.",
+    desc: "Our team brings 35+ years of combined experience in pharma operations, regulatory affairs, cold chain, and packaging — not generic business consulting.",
   },
   {
     icon: DollarSign,
     title: "Cost Optimisation Strategies",
-    desc: "We audit your existing supply chain and identify 10–30% cost reduction opportunities without compromising compliance or quality standards.",
+    desc: "We can help our partner with reliable sources to optimize the Cost Savings, without compromising compliance or quality standards.",
   },
   {
     icon: BadgeCheck,
@@ -34,12 +34,12 @@ export default function WhyUsSection() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-14">
-          <span className="text-xs font-semibold tracking-[0.2em] uppercase text-gold-600 mb-4 block">
+          {/*<span className="text-xs font-semibold tracking-[0.2em] uppercase text-gold-600 mb-4 block">
             Our Differentiators
-          </span>
+          </span>*/}
           <h2 className="font-display text-4xl lg:text-5xl font-semibold text-slate-900">
-            Why Pharma Companies{" "}
-            <span className="text-gold-600">Choose Seraphic</span>
+            Why {" "}
+            <span className="text-gold-600">Seraphic?</span>
           </h2>
           <p className="mt-4 text-slate-600 text-base md:text-lg max-w-2xl mx-auto">
             In a crowded market of consultants and vendors, here&apos;s what makes our clients

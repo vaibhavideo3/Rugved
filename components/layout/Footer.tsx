@@ -13,9 +13,9 @@ const services = [
 const quickLinks = [
   { label: "About Us",     href: "#about" },
   { label: "Services",     href: "#services" },
-  { label: "Industries",   href: "#industries" },
-  { label: "Case Studies", href: "#case-studies" },
-  { label: "Insights",     href: "#insights" },
+  /* label: "Industries",   href: "#industries" },*/
+  /* label: "Case Studies", href: "#case-studies" ,*/
+  /* label: "Insights",     href: "#insights" },*/
   { label: "Contact",      href: "#contact" },
 ];
 
@@ -126,7 +126,7 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <Phone size={15} className="text-gold-400 mt-0.5 shrink-0" />
                 <div>
-                  <p className="text-slate-300 text-sm font-medium">+91 98765 43210</p>
+                  <p className="text-slate-300 text-sm font-medium">+91 9850036351</p>
                   <p className="text-slate-500 text-xs mt-0.5">Mon–Sat, 9am–6pm IST</p>
                 </div>
               </li>
@@ -136,13 +136,13 @@ export default function Footer() {
                   href="mailto:info@seraphictradelinks.com"
                   className="text-slate-300 text-sm hover:text-gold-400 transition-colors"
                 >
-                  info@seraphictradelinks.com
+                  info@stradelinks.com
                 </a>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin size={15} className="text-gold-400 mt-0.5 shrink-0" />
                 <p className="text-slate-400 text-sm">
-                  Mumbai, Maharashtra, India
+                  Pune, Maharashtra, India
                 </p>
               </li>
             </ul>

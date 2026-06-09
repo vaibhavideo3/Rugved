@@ -14,20 +14,20 @@ const services = [
   {
     icon: Thermometer,
     title: "Cold Chain Solutions",
-    desc: "Temperature-controlled storage and pharma cold chain logistics for vaccines, biologics, and temperature-sensitive drugs. End-to-end monitoring and GDP compliance.",
-    tags: ["GDP Compliant", "Real-time Tracking", "Validated Transport"],
+    desc: "Temperature-controlled storage and pharma cold chain logistics for vaccines, biologics, and temperature-sensitive drugs. End-to-end sourcing and GDP compliance.",
+    tags: ["GDP Compliant", "Real-time Tracking", "Transport Validation", "Warehouse"],
   },
   {
     icon: Stethoscope,
     title: "Medical Devices",
-    desc: "Sourcing, consulting, and regulatory alignment for medical devices. From Class A to Class C devices — we manage supplier qualification and import compliance.",
+    desc: "Sourcing, consulting, and regulatory alignment for medical devices. From Class A to Class C devices, we manage supplier qualification and import compliance.",
     tags: ["Regulatory Affairs", "Import Consulting", "Supplier Qualification"],
   },
   {
     icon: Pill,
     title: "Drug Delivery Devices",
-    desc: "Advanced drug delivery systems consulting for pharma innovators. Inhalers, auto-injectors, transdermal patches — we support product design and sourcing.",
-    tags: ["Inhalers & Nebulisers", "Auto-injectors", "Transdermal"],
+    desc: "We support product design and sourcing.",
+    tags: ["Needle Free Transfer Devices (Vial Adapter)", "Intra Dermal Adapter", "Intra Nasal Sprays", "OPV Droppers", " Vaginal applicators"],
   },
   {
     icon: Package,
@@ -35,17 +35,18 @@ const services = [
     desc: "PVC, PET, and HIPS thermoformed trays for blister packaging and pharmaceutical primary packaging. Custom tooling, GMP-grade materials, fast lead times.",
     tags: ["PVC / PET / HIPS", "Custom Tooling", "GMP Grade"],
   },
+  
   {
-    icon: PackageOpen,
-    title: "Secondary & Tertiary Packaging",
-    desc: "Complete pharmaceutical packaging materials supply — cartons, shipper boxes, inserts, labels, and cold chain packaging tailored to your product and market.",
-    tags: ["Cartons & Shippers", "Cold Pack Solutions", "Regulatory Printing"],
+    icon: ShoppingBag,
+    title: "Primary Packaging",
+    desc: "Plastic packaging like Container closures, CR Caps, Opthalmic bottles etc.",
+    tags: ["USDMF", "ISO Certified"],
   },
   {
     icon: ShoppingBag,
-    title: "Pharma Products & Sourcing",
-    desc: "General pharmaceutical products sourcing and supply solutions. API procurement, excipients, and auxiliary materials from verified, GMP-compliant manufacturers.",
-    tags: ["API Sourcing", "Excipients", "Verified Suppliers"],
+    title: "Secondary & Tertiary Packaging",
+    desc: "Secondary Packaging - cartons, inserts, outserts, labels, HDP Trays etc. & Tertiary Packaging - Shipper boxes and customized cold chain packaging.",
+    tags: ["Cartons & Shippers", "Cold Pack Solutions", "Regulatory Printing"],
   },
 ];
 
@@ -72,14 +73,14 @@ export default function ServicesSection() {
             What We Do
           </span>
           <h2 className="font-display text-4xl lg:text-5xl font-semibold text-slate-900">
-            Comprehensive Pharma Consulting
+            Pharma Consulting
             <br />
             <span className="text-gold-600">&amp; Sourcing Services</span>
           </h2>
-          <p className="mt-4 text-slate-600 text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
+          {/*<p className="mt-4 text-slate-600 text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
             Six specialised service verticals designed to cover every stage of your pharma
             supply chain — from consulting to last-mile execution.
-          </p>
+          </p>*/}
         </div>
 
         {/* Cards */}

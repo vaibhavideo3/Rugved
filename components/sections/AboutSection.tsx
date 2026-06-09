@@ -10,21 +10,21 @@ const pillars = [
   },
   {
     icon: Globe,
-    title: "Pan-India Sourcing Network",
-    desc: "Verified supplier relationships across Maharashtra, Gujarat, Telangana, Karnataka, and beyond.",
+    title: "Sourcing Network",
+    desc: "Verified supplier relationships across the globe.",
   },
-  {
+  /*{
     icon: Zap,
     title: "Consulting + Execution — Both",
     desc: "We bridge the gap between strategy and ground-level execution — a rare combination in pharma consulting.",
-  },
+  },*/
 ];
 
 const checkpoints = [
   "End-to-end pharma consulting & sourcing under one roof",
-  "Deep expertise in GMP, cold chain, and packaging compliance",
+  "Expertise in GMP, cold chain, and packaging compliance",
   "Transparent, cost-optimised supply chain solutions",
-  "Trusted by pharma companies from Tier 1 to Tier 3 cities",
+  "Packaging solutions designed for compliance, safety, and efficiency",
 ];
 
 export default function AboutSection() {
@@ -53,18 +53,18 @@ export default function AboutSection() {
               <span className="text-gold-600">Pharma Consulting</span>
               {" "}& Sourcing Partner
             </h2>
-            <p className="text-slate-600 text-base leading-relaxed mb-6">
+            {/* <p className="text-slate-600 text-base leading-relaxed mb-6">
               Seraphic Tradelinks was founded with a singular mission: to give India&apos;s
               pharmaceutical companies access to expert consulting and reliable sourcing under
               one roof. Too often, pharma businesses must juggle between consultants who advise
               and vendors who supply — we collapsed that gap.
-            </p>
+            </p> 
             <p className="text-slate-600 text-base leading-relaxed mb-8">
               From GMP consulting and regulatory alignment to cold chain logistics,
               thermoformed tray packaging, and medical device sourcing, our team brings
               deep domain expertise combined with real execution capability across the
               pharma supply chain.
-            </p>
+            </p> */}
             <ul className="space-y-3">
               {checkpoints.map((pt) => (
                 <li key={pt} className="flex items-start gap-3 text-sm text-slate-700">
@@ -92,14 +92,14 @@ export default function AboutSection() {
               </div>
             ))}
 
-            {/* Accent quote */}
+             {/*Accent quote*/} 
             <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-xl p-6 border border-gold-500/20">
               <p className="font-display text-lg text-white italic leading-relaxed">
-                &ldquo;We don&apos;t just hand you a report and walk away.
+                &ldquo;We don&apos;t just hand you a source and walk away.
                 We stay until the job is done.&rdquo;
               </p>
               <p className="text-gold-400 text-sm font-semibold mt-3">— Seraphic Tradelinks Team</p>
-            </div>
+            </div> 
           </div>
         </div>
       </div>

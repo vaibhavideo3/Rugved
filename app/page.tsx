@@ -13,10 +13,10 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <ServicesSection />
-      <IndustriesSection />
       <WhyUsSection />
-      <CaseStudiesSection />
-      <InsightsSection />
+     {/*} <IndustriesSection />*/}
+      {/*<CaseStudiesSection />*/}
+      {/*<InsightsSection />*/}
       <ContactSection />
     </>
   );

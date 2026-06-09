@@ -38,7 +38,7 @@ const cases = [
     solution:
       "We consolidated their procurement via our verified supplier network, implemented centralised vendor management, and negotiated long-term supply agreements on their behalf.",
     metrics: [
-      { value: "24%", label: "Procurement cost reduction" },
+      { value: "24%", label: "Procurement cost reduction test" },
       { value: "40%", label: "Faster delivery timelines" },
       { value: "5",   label: "Consolidated vendor base" },
     ],

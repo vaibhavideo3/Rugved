@@ -55,21 +55,21 @@ export default function ContactSection() {
               {
                 icon: Phone,
                 title: "Call Us",
-                val: "+91 98765 43210",
+                val: "+91 9850036351",
                 sub: "Mon–Sat, 9am–6pm IST",
-                href: "tel:+919876543210",
+                href: "tel:+919850036351",
               },
               {
                 icon: Mail,
                 title: "Email Us",
-                val: "info@seraphictradelinks.com",
+                val: "info@stradelinks.com",
                 sub: "We reply within 24 hours",
-                href: "mailto:info@seraphictradelinks.com",
+                href: "mailto:info@stradelinks.com",
               },
               {
                 icon: MapPin,
                 title: "Our Location",
-                val: "Mumbai, Maharashtra, India",
+                val: "Pune, Maharashtra, India",
                 sub: "Serving pharma companies pan-India",
                 href: "#",
               },
@@ -94,7 +94,7 @@ export default function ContactSection() {
 
             {/* WhatsApp quick link */}
             <a
-              href="https://wa.me/919876543210"
+              href="https://wa.me/919850036351"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-3 w-full py-3.5 bg-green-600 hover:bg-green-700 text-white rounded-xl transition-colors font-semibold text-sm"
@@ -128,10 +128,10 @@ export default function ContactSection() {
               >
                 <div className="grid md:grid-cols-2 gap-5">
                   {[
-                    { id: "name",    label: "Full Name",       type: "text",  placeholder: "Dr. Rajesh Sharma" },
+                    { id: "name",    label: "Full Name",       type: "text",  placeholder: "Dr. Jay Sharma" },
                     { id: "company", label: "Company Name",    type: "text",  placeholder: "Pharma Pvt. Ltd." },
                     { id: "email",   label: "Email Address",   type: "email", placeholder: "you@company.com" },
-                    { id: "phone",   label: "Phone Number",    type: "tel",   placeholder: "+91 98765 43210" },
+                    { id: "phone",   label: "Phone Number",    type: "tel",   placeholder: "+91 00000 43210" },
                   ].map(({ id, label, type, placeholder }) => (
                     <div key={id}>
                       <label
